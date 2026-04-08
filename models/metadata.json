@@ -1,0 +1,17 @@
+{
+  "created_at": "2026-04-08T17:38:27.098414",
+  "features": [
+    "ecmwf_temp_c",
+    "ecmwf_pressure_hpa",
+    "ecmwf_wind_kmh",
+    "hour_of_day",
+    "day_of_year",
+    "month",
+    "hour_sin",
+    "hour_cos",
+    "day_sin",
+    "day_cos"
+  ],
+  "target": "temp_error",
+  "model_type": "GradientBoostingRegressor"
+}
